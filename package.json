@@ -1,0 +1,28 @@
+{
+  "name": "subversion",
+  "main": "./lib/subversion",
+  "version": "0.4.0",
+  "description": "An Atom Plugin for users of Subversion",
+  "activationCommands": {
+    "atom-workspace": [
+      "subversion:blameFromTreeView",
+      "subversion:blameFromEditor",
+      "subversion:commitFromTreeView",
+      "subversion:commitFromEditor",
+      "subversion:diffFromTreeView",
+      "subversion:diffFromEditor",
+      "subversion:logFromTreeView",
+      "subversion:logFromEditor",
+      "subversion:revertFromTreeView",
+      "subversion:revertFromEditor",
+      "subversion:updateFromTreeView",
+      "subversion:updateFromEditor"
+    ]
+  },
+  "repository": "https://github.com/exanter/atom-subversion",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,98 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+"context-menu":
+  "atom-text-editor": [
+    {
+      "label": "subversion"
+      "submenu": [
+        {
+          "label": "Blame"
+          "command": "subversion:blameFromEditor"
+        }
+        {
+          "label": "Commit"
+          "command": "subversion:commitFromEditor"
+        }
+        {
+          "label": "Diff"
+          "command": "subversion:diffFromEditor"
+        }
+        {
+          "label": "Log"
+          "command": "subversion:logFromEditor"
+        }
+        {
+          "label": "Revert"
+          "command": "subversion:revertFromEditor"
+        }
+        {
+          "label": "Update"
+          "command": "subversion:updateFromEditor"
+        }
+      ]
+    }
+  ],
+  ".tree-view": [
+    {
+      "label": "subversion",
+      "submenu": [
+        {
+          "label": "Blame"
+          "command": "subversion:blameFromTreeView"
+        }
+        {
+          "label": "Commit"
+          "command": "subversion:commitFromTreeView"
+        }
+        {
+          "label": "Diff"
+          "command": "subversion:diffFromTreeView"
+        }
+        {
+          "label": "Log"
+          "command": "subversion:logFromTreeView"
+        }
+        {
+          "label": "Revert"
+          "command": "subversion:revertFromTreeView"
+        }
+        {
+          "label": "Update"
+          "command": "subversion:updateFromTreeView"
+        }
+      ]
+    }
+  ]
+"menu": [
+  {
+    "label": "Packages"
+    "submenu": [
+      "label": "subversion"
+      "submenu": [
+        {
+          "label": "Blame"
+          "command": "subversion:blameFromEditor"
+        }
+        {
+          "label": "Commit"
+          "command": "subversion:commitFromEditor"
+        }
+        {
+          "label": "Diff"
+          "command": "subversion:diffFromEditor"
+        }
+        {
+          "label": "Log"
+          "command": "subversion:logFromEditor"
+        }
+        {
+          "label": "Revert"
+          "command": "subversion:revertFromEditor"
+        }
+        {
+          "label": "Update"
+          "command": "subversion:updateFromEditor"
+        }
+      ]
+    ]
+  }
+]
